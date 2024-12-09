@@ -4,16 +4,25 @@ body {
     align-items: center;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: black; /* Change this line */
+    background-color: black;
     margin: 0;
 }
 
 .calculator {
+    width: 100%;
+    max-width: 320px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .display {
